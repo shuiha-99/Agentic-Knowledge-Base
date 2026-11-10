@@ -1,0 +1,8 @@
+# Separate environment: Ragas 0.3.3 imports APIs removed from LangChain 1.x.
+# No project install and no torch needed: the app sends precomputed dense vectors.
+ragas==0.3.3
+langchain>=0.3.27,<0.4
+langchain-core>=0.3.75,<0.4
+langchain-community>=0.3.27,<0.4
+langchain-ollama>=0.3.7,<0.4
+langchain-openai>=0.3.30,<0.4

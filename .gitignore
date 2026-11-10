@@ -1,0 +1,34 @@
+.venv/
+.venv-ragas/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+runtime/
+work/
+*.egg-info/
+
+# Local sessions, logs, and editor / assistant settings
+*.log
+*.sqlite
+*.sqlite3
+*.db
+.codex/
+.agents/
+.aws/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Personal study material and machine-specific validation diary
+/学习入口.md
+/docs/两天学习计划_定稿.md
+/docs/简历项目描述_定稿.md
+/docs/*面试*.docx
+/docs/DELIVERY_STATUS.md
+
